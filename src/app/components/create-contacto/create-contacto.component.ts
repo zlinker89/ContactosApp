@@ -41,6 +41,7 @@ export class CreateContactoComponent implements OnInit {
     console.log(this.contactoForm)
     this.isloading = true;
     // display form values on success
+    // TODO: Enviar datos al create or update dependiendo del state
   }
 
   onReset(): void {
