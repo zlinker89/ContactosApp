@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { CreateContactoComponent } from './components/create-contacto/create-contacto.component';
 
 const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/home'
+    redirectTo: '/contacto'
   },
   {
-    path: 'home',
-    component: ContactoComponent
+    path: 'contacto',
+    component: ContactoComponent,
+  },
+  {
+    path: 'create-contacto',
+    component: CreateContactoComponent,
   }
 ];
 

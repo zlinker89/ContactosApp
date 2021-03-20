@@ -26,12 +26,14 @@ import {MatSelectModule} from '@angular/material/select';
 // forms
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CreateContactoComponent } from './components/create-contacto/create-contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactoComponent,
-    ContactoFormComponent
+    ContactoFormComponent,
+    CreateContactoComponent,
   ],
   imports: [
     BrowserModule,
